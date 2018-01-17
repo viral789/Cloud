@@ -1,0 +1,9 @@
+172.31.14.148 hadoop-master 
+172.31.15.9 hadoop-slave-1
+172.31.2.6 hadoop-slave-2
+172.31.2.189 hadoop-slave-3
+172.31.6.20 hadoop-slave-4
+172.31.6.68 hadoop-slave-5
+172.31.14.137 hadoop-slave-6
+172.31.14.100 hadoop-slave-7
+172.31.7.62 hadoop-slave-8

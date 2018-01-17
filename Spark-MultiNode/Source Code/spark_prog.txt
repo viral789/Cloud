@@ -1,0 +1,8 @@
+val s_time = System.nanoTime()   
+val input_file=sc.textFile("hdfs://localhost:9000/input");
+val pair=input_file.map(_.splitAt(10))
+val output=pair.sortByKey()
+val final_result=output.map{case (key,value) => s"$key $value" }
+final_result.saveAsTextFile("hdfs://localhost:9000/output");
+val e_time = System.nanoTime()	
+println("Total time: " + (e_time - s_time) + "ns");  
