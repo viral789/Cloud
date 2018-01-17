@@ -1,0 +1,63 @@
+The Benchmarks are easy to compile and execute:
+
+Install GCC first on your operating system:
+
+Windows:
+cygwin.
+
+Ubuntu:
+sudo apt-get install gcc.
+
+
+1. CPU Benchmark:
+
+Compile:
+
+gcc filename.c -pthread -o filename -w 
+
+Execute:
+
+./filename (no inputs here)
+
+
+2. Memory Benchmark:
+
+Compile:
+
+gcc filename.c -pthread -o filename -w
+
+
+Execute:
+
+./filename (no inputs here)
+
+
+3. Disk:
+
+gcc filename.c -pthread -o filename -w 
+
+Execute:
+
+./filename (no inputs here)
+
+
+4. Network:
+
+
+javac ClientTCP.java
+javac ClientUDP.java
+javac ServerTCP.java
+javac ServerUDP.java
+
+Execute:
+1. Run Server first:
+
+java ServerTCP
+java ServerUDP
+
+2. Run client 
+
+java ClientTCP
+java ClientUDP
+
+

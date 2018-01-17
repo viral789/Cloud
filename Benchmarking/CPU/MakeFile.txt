@@ -1,0 +1,2 @@
+allQ:
+	gcc -o CPUBenchMarking.c -pthread -w
